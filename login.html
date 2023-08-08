@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./global.css" />
+		<link rel="stylesheet" href="./login.css" />
+		<link rel="icon"type="image/png" href="./img/favicon.ico" sizes="32x32"
+	</head>
+	<body>
+		<main>
+			<div class="left">
+				<div class="login">
+					<p>Zaloguj się</p>
+					<button>
+						<img src="/H_W_Front-End/img/face.png" />logowanie przez Facebook
+					</button>
+					<button>
+						<img src="/H_W_Front-End/img/instagram 1.png" />logowanie przez Instagram
+					</button>
+					<div class="lineWrapper">
+						<p>Lub za pomocą maila</p>
+					</div>
+					<form id="form">
+						<div class="textInput">
+							<label class="label" for="">e-mail</label>
+							<input id="email" type="text" placeholder="e-mail" />
+							<div id="emailError" class="validationError">
+								To nie jest poprawny format adresu e-mail
+							</div>
+						</div>
+						<div class="textInput">
+							<label class="label" for="">Password</label>
+							<input id="password" type="password" placeholder="password" />
+							<div id="passwordError" class="validationError">
+								To nie jest poprawny format hasła
+							</div>
+						</div>
+						<div class="bottomWrapper">
+							<div class="checkboxInput">
+								<input
+									type="checkbox"
+									name="rememberCheckbox"
+									id="rememberCheckbox"
+								/>
+								<label for="rememberCheckbox">Zapamiętaj mnie </label>
+								<a href="password-recovery.html">Zapomniałem hasła</a>
+							</div>
+							<button class="submit" type="submit">Zaloguj się</button>
+						</div>
+					</form>
+					<div class="lineWrapper"></div>
+					<div class="register">
+						Nie masz jeszcze konta? <a href="index.html">Zarejestruj się</a>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="bgi"></div>
+				<div class="txt">
+					<img src="./img/Group 5278.png" />
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
