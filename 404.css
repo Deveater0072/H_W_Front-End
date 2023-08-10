@@ -43,7 +43,8 @@
   color: #190F27;
   margin-bottom: 10px;
 }
-.backToMain{
+
+a {
   line-height: 28px;
   font-size: 24px;
   color: #64606A;
